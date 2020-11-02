@@ -1,0 +1,171 @@
+html {
+    background: linear-gradient(0deg, #7e3d14 -10%, #1B1E21 30%, #1B1E21 90%, #7e3d14);
+    font-size: 14px;
+    font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    background:linear-gradient(0deg, #7e3d14 -10%, #1B1E21 30%, #1B1E21 90%, #7e3d14);
+    color: #e9ecec;
+    font-family: verdana,arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 320px;
+}
+section {
+    background: #1C242D;
+    margin: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    box-shadow: inset 2px 2px 5px #1f1d1b80, 1px 1px 5px #b69c9c;
+  }
+h3 {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    padding: 6px 4px;
+    text-shadow: 1px 1px 2px rgb(8, 8, 8);
+    text-transform: uppercase;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+h1 {
+    text-shadow: 2px 2px 5px rgb(17, 15, 15);
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.imgcolorPudge{
+    color:white; background: linear-gradient(0deg, #B9500B -10%, #1B1E21 30%, #1B1E21 90%, #B9500B);
+    font-size:112%;
+}
+#Attribute{
+    width: 100%;
+    padding: 4px 0; 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    color: white;
+    text-align: center;
+}
+.evenrowsgray{
+    width:100%; 
+    border-collapse:collapse; 
+    text-align:left;
+}
+.tooltips{
+    cursor: help;
+     border-bottom: 1px dotted;
+}
+.other_information{
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left;
+}
+.biography, .skills{
+    padding: 10px;
+}
+
+#PlayForFreeButton a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-family: 'Radiance';
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color:  #4585C3;
+    background: #111C26;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+#PlayForFreeButton a:hover {
+    background: #4585C3;
+    box-shadow: 0 15px 20px rgba(76, 65, 223, 0.4);
+    color: #111C26;
+    transform: translateY(5px);
+  }
+.characteristic {
+    float: left;
+    clear: left;
+    margin: .5em 0 1em .5em;
+    padding: 2px;
+    width: 260px;
+    border: 1px solid black;
+    background: #34404e;
+    text-align: center;
+    font-size: 88%;
+    line-height: 1.5em;
+    white-space: nowrap;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.single_skills {
+    background: rgb(41, 46, 51);
+    margin: 5px;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    box-shadow: inset 2px 2px 5px #1f1d1b80, 1px 1px 5px #b69c9c;
+}
+.info_skills {
+    width: 100%;
+}
+.image_skills {
+    
+    float: right;
+    margin: 0 0 2px 8px;
+}
+.effects {
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(160,182,191,0.4);
+    margin-bottom: 8px;
+}
+.description {
+    padding: 0;
+    position: relative;
+}
+.notes {
+    margin-top: 8px;
+    background-color: #3a3e42;
+    color: #b3aeae;
+    padding: 2px;
+}
+.stats {
+    padding-top: 8px;
+    border-top: 1px solid rgba(160,182,191,0.4);
+    margin-top: 8px;
+}
+.lore {
+    margin: 8px 0 0 0;
+    font-size: 0.95em;
+    color: rgba(160,182,191,0.9);
+    padding: 6px;
+    font-style: italic;
+    background-color: #1c242d;
+}
+.cocooldown_and_manacost{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
