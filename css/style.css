@@ -1,0 +1,189 @@
+html {
+    background: linear-gradient(0deg, #7e3d14 -10%, #1B1E21 30%, #1B1E21 90%, #7e3d14);
+    font-size: 14px;
+    font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #e9ecec;
+    background: linear-gradient(0deg, #7e3d14 -10%, #1B1E21 30%, #1B1E21 90%, #7e3d14);
+    font-size: 1em;
+    display: block;
+    font-family: verdana, arial, sans-serif;
+    line-height: 1.5;
+    min-width: 320px;
+}
+section {
+    background: #1C242D;
+    box-shadow: inset 2px 2px 5px #1f1d1b80, 1px 1px 5px #813410;
+    margin: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+h3 {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(8, 8, 8);
+    font-size: 1.143em;
+    position: relative;
+    padding: 6px 4px;
+    text-transform: uppercase;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+h1 {
+    text-shadow: 2px 2px 5px rgb(17, 15, 15);
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.imgColorPudge{
+    color:white;
+    background: linear-gradient(0deg, #B9500B -10%, #1B1E21 30%, #1B1E21 90%, #B9500B);
+    font-size: 1.1em;
+}
+#attribute{
+    color: white;
+    width: 100%;
+    padding: 4px 0; 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    text-align: center;
+}
+.evenRowsGray{
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left;
+}
+.tool_tip{
+    cursor: help;
+    border-bottom: 1px dotted;
+}
+.other_information{
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left;
+}
+.other_information_th{
+    padding-left:2em;
+}
+.biography, .hero_description{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+a:link, a:visited{
+    color: #e9ecec;
+}
+.skills{
+    text-align: justify;
+    padding: 10px;
+}
+#PlayForFreeButton a {
+    color: #4585C3;
+    background: #111C26;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    font-size: 0.786em;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-family: 'Radiance';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: .3s;
+}
+#PlayForFreeButton a:hover {
+    color: #111C26;
+    background: #4585C3;
+    box-shadow: 0 15px 20px rgba(76, 65, 223, 0.4);
+    transform: translateY(5px);
+}
+.characteristic {
+    background: #34404e;
+    font-size: 0.897;
+    float: left;
+    clear: left;
+    margin: .5em 0 1em .5em;
+    padding: 2px;
+    width: 260px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 1.5em;
+    white-space: nowrap;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.single_skills {
+    background: rgb(41, 46, 51);
+    margin: 5px;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    box-shadow: inset 2px 2px 5px #1f1d1b80, 1px 1px 5px #813410;
+}
+.info_skills {
+    width: 100%;
+}
+.image_skills {
+    float: right;
+    margin: 0 0 2px 8px;
+}
+.image_skills_size{
+    width: 100px;
+    height: 100px;
+}
+.effects {
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(160,182,191,0.4);
+    margin-bottom: 8px;
+}
+.description {
+    padding: 0;
+    position: relative;
+}
+.notes {
+    color: #b3aeae;
+    background-color: #3a3e42;
+    margin-top: 8px;
+    padding: 2px;
+}
+.stats {
+    padding-top: 8px;
+    border-top: 1px solid rgba(160,182,191,0.4);
+    margin-top: 8px;
+}
+.lore {
+    color: rgba(160,182,191,0.9);
+    background-color: #1c242d;
+    font-size: 0.95em;
+    margin: 8px 0 0 0;
+    padding: 6px;
+    font-style: italic;
+}
+.cocooldown_and_manacost{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+@media (min-width: 414px) and (max-width: 736px) {
+    .hero_description{width: 90%; }
+  }

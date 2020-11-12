@@ -4,177 +4,380 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Герой Pudge</title>
-    <link rel="stylesheet" href="css/pudge css.css">
+    <link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="image/Bokehlicia-Pacifica-Steam-2.ico">
 </head>
 <body>
 	<main id="main">
-        
     <div id="PlayForFreeButton">
-    <a href="http://store.steampowered.com/app/570/Dota_2/">
-        
+    <a href="http://store.steampowered.com/app/570/Dota_2/" target="_blank">
         Play for Free</a>
     </div>
-
-
-        <h1 id="title">Pudge, Мясник</h1>
-        <table class="information">
-            <tbody>
-                <tr>
-                    <th style="color:white; background: linear-gradient(0deg, #B9500B -10%, #1B1E21 30%, #1B1E21 90%, #B9500B); font-size:112%;">Pudge
-                    <div>
-                        <img class="" src="image/Pudge_icon.png" alt="Pudge" width="256" height="144">
-                    </div>
-                        <div id="Attribute" style="width: 100%; padding: 4px 0; display: grid; grid-template-columns: auto auto auto; color: white;text-align: center;">
-                            <div id="primaryAttribute">
-                                <a title="Сила">
-                                <img src="image/Strength_attribute_symbol.png" alt="Strength_attribute_symbol">
-                                </a>
-                                <div>
-                                    <b>25</b> + <span class="tool" title="Прибавка силы за уровень" style="cursor: help;">3,5</span>
-                                </div>
-                            </div>
-                            <div >
-                                <a title="Спритність">
-                                <img src="image/Agility_attribute_symbol.png" alt="Agility_attribute_symbol">
-                                </a>
-                                <div>
-                                    <b>14</b> + <span class="tool" title="Прибавка ловкости за уровень" style="cursor: help;">1,5</span>
-                                </div>
-                            </div>
-                            <div >
-                                <a title="Інтелект">
-                                <img src="image/Intelligence_attribute_symbol.png" alt="Intelligence_attribute_symbol">
-                                </a>
-                                <div>
-                                    <b>16</b> + <span class="tool" title="Прибавка интелекта за уровень" style="cursor: help;">1,5</span>
-                                </div>
-                            </div>
-                        </div>
-                    </th>
-                </tr>
-                <td>
-                    <table class="evenrowsgray" style="width:100%; border-collapse:collapse; text-align:left;">
+        <h1 id="title">Гайд здібностей цього товстуна(M'ясник)</h1>
+        <section id="1">
+            <h2>Характеристика Героя</h2>
+            <div class="one">
+                <table class="characteristic">
                     <tbody>
                         <tr>
-                            <th style="width:40%;">Уровень
-                            </th>
-                            <th style="width:14%;">
-                                <span class="tooltip" title="Базовые значения, без атрибутов" style="cursor: help; border-bottom: 1px dotted;">0</span>
-                            </th>
-                            <th style="width:14%;">
-                                <span class="tooltip" title="Стартовые значения: Базовые характеристики + характеристики с базовых атрибутов" style="cursor: help; border-bottom: 1px dotted;">1</span>
-                            </th>
-                            <th style="width:14%;">
-                                <span class="tooltip" title="Значения 15 уровня: Базовые характеристики + характеристики с базовых атрибутов + характеристики с полученных атрибутов. Бонусы талантов не включены" style="cursor: help; border-bottom: 1px dotted;">15</span>
-                            </th>
-                            <th style="width:14%;">
-                                <span class="tooltip" title="Значения 25 уровня: Базовые характеристики + характеристики с базовых атрибутов + характеристики с полученных атрибутов. Бонусы талантов не включены" style="cursor: help; border-bottom: 1px dotted;">25</span>
-                            </th>
-                            <th style="width:14%;">
-                                <span class="tooltip" title="Значения 30 уровня: Базовые характеристики + характеристики с базовых атрибутов + характеристики с полученных атрибутов. Бонусы талантов не включены" style="cursor: help; border-bottom: 1px dotted;">30</span>
+                            <th class="imgColorPudge" >Pudge
+                            <div>
+                                <img src="image/Pudge_icon.png" alt="Pudge" width="256" height="144">
+                            </div>
+                                <div id="attribute">
+                                    <div id="primaryAttribute">
+                                        <a title="Сила">
+                                        <img src="image/Strength_attribute_symbol.png" alt="Strength_attribute_symbol">
+                                        </a>
+                                        <div>
+                                            <b>25</b> + <span class="tool" title="Надбавка сили за рівень" style="cursor: help;">3,5</span>
+                                        </div>
+                                    </div>
+                                    <div >
+                                        <a title="Спритність">
+                                        <img src="image/Agility_attribute_symbol.png" alt="Agility_attribute_symbol">
+                                        </a>
+                                        <div>
+                                            <b>14</b> + <span class="tool" title="Надбавка спритності за рівень" style="cursor: help;">1,5</span>
+                                        </div>
+                                    </div>
+                                    <div >
+                                        <a title="Інтелект">
+                                        <img src="image/Intelligence_attribute_symbol.png" alt="Intelligence_attribute_symbol">
+                                        </a>
+                                        <div>
+                                            <b>16</b> + <span class="tool" title="Надбавка інтелекту за рівень" style="cursor: help;">1,5</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </th>
                         </tr>
-                    <tr>
-                        <th>Здоровье</th>
-                        <td> 200 </td>
-                        <td> 700 </td>
-                        <td> 1580 </td>
-                        <td> 2220 </td>
-                        <td> 2540 </td>
-                    </tr>
-                    <tr>
-                        <th><span class="tooltip" title="Регенерация здоровья" style="cursor: help; border-bottom: 1px dotted;">Реген. зд.</span></th>
-                        <td>2 </td>
-                        <td>4,5 </td>
-                        <td>8,98</td>
-                        <td>12,18 </td>
-                        <td>13,78</td>
-                    </tr>
-                    <tr>
-                        <th>Мана</th>
-                        <td>75 </td>
-                        <td>267</td>
-                        <td>519</td>
-                        <td>699</td>
-                        <td>783</td>
-                    </tr>
-                    <tr>
-                        <th><span class="tooltip" title="Регенерация маны" style="cursor: help; border-bottom: 1px dotted;">Реген. м.</span></th>
-                        <td>0 </td>
-                        <td>0,8</td>
-                        <td>1,85</td>
-                        <td>2,6</td>
-                        <td>2,98</td>
-                    </tr>
-                    <tr>
-                        <th>Броня</th>
-                        <td>-2</td>
-                        <td>0,33</td>
-                        <td>3,83</td>
-                        <td>6,33</td>
-                        <td>7,58</td>
-                    </tr>
-                    <tr>
-                        <th><span class="tooltip" title="Атак в секунду" style="cursor: help; border-bottom: 1px dotted;">Атак/сек.</span></th>
-                        <td>0,59</td>
-                        <td>0,67</td>
-                        <td>0,79</td>
-                        <td>0,88</td>
-                        <td>0,93</td>
-                    </tr>
-                    <tr>
-                        <th>Урон</th>
-                        <td>46</td>
-                        <td>71</td>
-                        <td>115</td>
-                        <td>147</td>
-                        <td>163</td>
-                    </tr></tbody></table>
-                </td>
-                <tr>
-                    <td>
-                        <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                        <td>
+                            <table class="evenRowsGray">
                             <tbody>
                                 <tr>
-                                    <th style="padding-left:2em;">Сопротивление магии</th>
-                                    <td>25%</td>
-                                </tr>
-                                <tr>
-                                    <th style="padding-left:2em;">
-                                    <!--<span>
-                                            <audio hidden class="ext-audiobutton" data-volume="1.0">
-                                                <source  src="sound/Pudge_move.mp3.mpeg" type="audio/mpeg">
-                                            </audio>
-                                                <a class="ext-audiobutton" data-state="play" title="Play/Pause"></a>
-                                            </span>-->
-                                                <span >
-                                                    Скорость передвижения
-                                                </span>
+                                    <th style="width:40%;">Рівнь
                                     </th>
-                                    <td>280</td>
-                                </tr>
-                                
-                                <tr>
-                                    <th style="padding-left:2em;">
-                                        <!--<span>
-                                            <audio controls class="ext-audiobutton" data-volume="1.0">
-                                                <source src="sound/Pudge_attack.mp3.mpeg" type="audio/mpeg">
-                                            </audio>
-                                            <a class="ext-audiobutton" data-state="play" title="Play/Pause"></a>
-                                        </span> -->
-                                        <span >Скорость атаки</span>
+                                    <th style="width:14%;">
+                                        <span class="tool_tip" title="Базовые значения, без атрибутов">0</span>
                                     </th>
-                                    <td>100</td>
+                                    <th style="width:14%;">
+                                        <span class="tool_tip" title="Стартові значення: Базові характеристики + характеристики з базових атрибутів" >1</span>
+                                    </th>
+                                    <th style="width:14%;">
+                                        <span class="tool_tip" title="Значення 15 рівня: Базові характеристики + характеристики з базових атрибутів + ​​характеристики з отриманих атрибутів. Бонуси талантів не включені">15</span>
+                                    </th>
+                                    <th style="width:14%;">
+                                        <span class="tool_tip" title="Значення 25 рівня: Базові характеристики + характеристики з базових атрибутів + ​​характеристики з отриманих атрибутів. Бонуси талантів не включені">25</span>
+                                    </th>
+                                    <th style="width:14%;">
+                                        <span class="tool_tip" title="Значення 30 рівня: Базові характеристики + характеристики з базових атрибутів + ​​характеристики з отриманих атрибутів. Бонуси талантів не включені" >30</span>
+                                    </th>
                                 </tr>
+                            <tr>
+                                <th>Здоров'я</th>
+                                <td> 200 </td>
+                                <td> 700 </td>
+                                <td> 1580 </td>
+                                <td> 2220 </td>
+                                <td> 2540 </td>
+                            </tr>
+                            <tr>
+                                <th><span class="tool_tip" title="Регенерація здоров'я">Реген. зд.</span></th>
+                                <td>2 </td>
+                                <td>4,5 </td>
+                                <td>8,98</td>
+                                <td>12,18 </td>
+                                <td>13,78</td>
+                            </tr>
+                            <tr>
+                                <th>Мана</th>
+                                <td>75 </td>
+                                <td>267</td>
+                                <td>519</td>
+                                <td>699</td>
+                                <td>783</td>
+                            </tr>
+                            <tr>
+                                <th><span class="tool_tip" title="Регенерація мани">Реген. м.</span></th>
+                                <td>0 </td>
+                                <td>0,8</td>
+                                <td>1,85</td>
+                                <td>2,6</td>
+                                <td>2,98</td>
+                            </tr>
+                            <tr>
+                                <th>Броня</th>
+                                <td>-2</td>
+                                <td>0,33</td>
+                                <td>3,83</td>
+                                <td>6,33</td>
+                                <td>7,58</td>
+                            </tr>
+                            <tr>
+                                <th><span class="tool_tip" title="Атак в секунду">Атак/сек.</span></th>
+                                <td>0,59</td>
+                                <td>0,67</td>
+                                <td>0,79</td>
+                                <td>0,88</td>
+                                <td>0,93</td>
+                            </tr>
+                            <tr>
+                                <th>Шкоди</th>
+                                <td>46</td>
+                                <td>71</td>
+                                <td>115</td>
+                                <td>147</td>
+                                <td>163</td>
+                            </tr></tbody></table>
+                        </td>
+                        <tr>
+                            <td>
+                                <table class="other_information">
+                                    <tbody>
+                                        <tr>
+                                            <th class=".other_information_th">Опір магії</th>
+                                            <td>25%</td>
+                                        </tr>
+                                        <tr>
+                                            <th class=".other_information_th">
+                                            <!--<span>
+                                                    <audio hidden class="ext-audiobutton" data-volume="1.0">
+                                                        <source  src="sound/Pudge_move.mp3.mpeg" type="audio/mpeg">
+                                                    </audio>
+                                                        <a class="ext-audiobutton" data-state="play" title="Play/Pause"></a>
+                                                    </span>-->
+                                                        <span >
+                                                            Швидкість пересування
+                                                        </span>
+                                            </th>
+                                            <td>280</td>
+                                        </tr>
+                                        <tr>
+                                            <th class=".other_information_th">
+                                                <!--<span>
+                                                    <audio controls class="ext-audiobutton" data-volume="1.0">
+                                                        <source src="sound/Pudge_attack.mp3.mpeg" type="audio/mpeg">
+                                                    </audio>
+                                                    <a class="ext-audiobutton" data-state="play" title="Play/Pause"></a>
+                                                </span> -->
+                                                <span >Швидкість атаки</span>
+                                            </th>
+                                            <td>100</td>
+                                        </tr>
 
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p><b>Pudge</b> – это герой с <a href="/%D0%91%D0%BB%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9" class="mw-redirect" title="Ближний">ближним типом атаки</a>, основной характеристикой которого является <a href="/%D0%A1%D0%B8%D0%BB%D0%B0" title="Сила"><img alt="Strength attribute symbol.png" src="https://images.wikia.com/dota2_gamepedia/images/7/7a/Strength_attribute_symbol.png" decoding="async" width="20" height="20"></a> <a href="/%D0%A1%D0%B8%D0%BB%D0%B0" title="Сила">сила</a>. Его первая способность, <span class="image-link"><a href="/Pudge" title="Pudge"><img alt="" src="https://images.wikia.com/dota2_gamepedia/images/9/9c/Meat_Hook_icon.png" decoding="async" width="16" height="16" class="noprint"></a> <a href="/Pudge#Meat_Hook" title="Pudge">Meat Hook</a></span>, бросает окровавленный крюк в определенную область или юнита. Крюк зацепится за первого юнита, в которого попадет, притащит его к Pudge и нанесет урон, если это враг. Вторая способность, <span class="image-link"><a href="/Pudge" title="Pudge"><img alt="" src="https://images.wikia.com/dota2_gamepedia/images/7/76/Rot_icon.png" decoding="async" width="16" height="16" class="noprint"></a> <a href="/Pudge#Rot" title="Pudge">Rot</a></span>, токсичное облако, вызванное из-за гноения, постоянно наносит урон и замедляет противников, ранит не только вражеских юнитов, но и самого Pudge. Пассивная способность, <span class="image-link"><a href="/Pudge" title="Pudge"><img alt="" src="https://images.wikia.com/dota2_gamepedia/images/b/bf/Flesh_Heap_icon.png" decoding="async" width="16" height="16" class="noprint"></a> <a href="/Pudge#Flesh_Heap" title="Pudge">Flesh Heap</a></span>, дает Pudge дополнительное сопротивление магии, а также дополнительную силу, которая увеличивается, когда Pudge убивает вражеского героя, или тот умирает поблизости. Способность начинает накапливать заряды уже до того, как будет выучена, но получить силу герой сможет, только изучив ее. Ультимативной способностью, <span class="image-link"><a href="/Pudge" title="Pudge"><img alt="" src="https://images.wikia.com/dota2_gamepedia/images/8/87/Dismember_icon.png" decoding="async" width="16" height="16" class="noprint"></a> <a href="/Pudge#Dismember" title="Pudge">Dismember</a></span>, Pudge начинает заживо пожирать вражеского юнита, обездвиживая его и нанося периодический урон. Покупка <span class="image-link"><a href="/Aghanim%27s_Scepter" title="Aghanim's Scepter"><img alt="Aghanim's Scepter icon.png" src="https://images.wikia.com/dota2_gamepedia/images/0/07/Aghanim%27s_Scepter_icon.png" decoding="async" width="20" height="15" class="noprint"></a> <a href="/Aghanim%27s_Scepter" title="Aghanim's Scepter">Aghanim's Scepter</a></span> позволяет использовать <span class="image-link"><a href="/Pudge" title="Pudge"><img alt="" src="https://images.wikia.com/dota2_gamepedia/images/8/87/Dismember_icon.png" decoding="async" width="16" height="16" class="noprint"></a> <a href="/Pudge#Dismember" title="Pudge">Dismember</a></span> на союзника, тем самым проглотив его, сделав неуязвимым и восстанавливая 4% от максимального здоровья в секунду, союзник может в любой момент вылезти из владельца способности.
-</p>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="hero_description">
+                    <b>Pudge</b> Це герой з ближнім типом атаки, основною характеристикою якого є <a title="Сила"> <img src="image/Strength_attribute_symbol.png" alt="Strength_attribute_symbol.png" width=16 height=16>сила</a>. Його перша здатність, <a href="#meat-hook" title="Meat Hook"> <img src="image/Meat_Hook_icon.png" alt="Meat_Hook_icon.png" width=16 height=16> Meat Hook</a>, кидає закривавлений гак в певний район чи юніта. Крюк зачепиться за першого юніта, в якого потрапить, притягне його до Pudge і завдасть шкоди, якщо це ворог. Друга здатність, <a href="#rot" title="Rot"> <img src="image/Rot_icon.png" alt="Rot_icon.png" width=16 height=16>Rot</a>, токсична хмара, викликане через гноїння, постійно завдає шкоди і уповільнює супротивників, ранить не тільки ворожих юнітів, а й самого Pudge. Пасивна здатність, <a href="#flesh_heap" title="Flesh Heap"> <img src="image/Flesh_Heap_icon.png" alt="Flesh_Heap_icon.png" width=16 height=16>Flesh Heap</a>, дає Pudge додатковий опір магії, а також додаткову силу, яка збільшується, коли Pudge вбиває ворожого героя, або той вмирає поблизу. Здатність починає накопичувати заряди вже до того, як буде вивчена, але отримати силу герой зможе, тільки вивчивши її. Ультимативній здатністю, <a href="#dismember" title="Dismember"> <img src="image/Dismember_icon.png" alt="Dismember_icon.png" width=16 height=16>Dismember</a>, Pudge починає заживо пожирати ворожого юніта, обездвиживая його і завдаючи періодичний шкоди. Купівля <a title="Aghanim's Scepter"> <img src="image/Aghanim's_Scepter_icon.png" alt="Aghanim's_Scepter_icon.png" width=16 height=16>Aghanim's Scepter</a> дозволяє використовувати <a href="#dismember" title="Dismember"> <img src="image/Dismember_icon.png" alt="Dismember_icon.png" width=16 height=16>Dismember</a> на союзника, тим самим проковтнувши його додавши нову здатність<a href="#eject" title="Eject"> <img src="image/Eject_(Pudge)_icon.png" alt="Eject_(Pudge)_icon.png" width=16 height=16>Eject</a>, зробивши невразливим і відновлюючи 4% від максимального здоров'я в секунду, союзник може в будь-який момент вийти з власника здатності.
+                    </div>
+                </div>
+            </section>
+        <section id="2">
+            <h2>Біографія</h2>
+            <div class="biography">
+                На Полях Одвічної Різанини, що далеко на південь від Квоїджу, щоночі невтомно працює огрядна постать — патрає, білує, скиртує кінцівки та нутрощі полеглих, аби до світання поле знову було готовим до нової крові. У цім проклятім краї ніщо саме не зогниє й не розкладеться; жоден мрець не стане прахом земним, як глибоко його не закопуй. Оточений птахами-падложерами, котрим до дзьоба влізає лишень пошматована плоть, м’ясник Пудж вправляється з лезами, які гострішають з кожним порубаним трупом. Хвись, хвись, гуп. Плоть відпадає від кісток, сухожилки та зв’язки рвуться, як мокрий папір. І з роками, окрім любові до м’ясницької справи, в Пуджа з’явився смак і до падла. Спершу кусень м’яса тут, трішки крові там… Невдовзі Пудж шматував зубами найтвердіших мерців, як пес розриває лахміття. І навіть ті, хто смерті не бояться, тремтять перед М’ясником.									<br clear="both">
+            </div>
+            </section>
+        <section id="3">
+            <h2>Здібності</h2>
+            <div class="skills">
+            <div class="single_skills" id="meat-hook">
+                <h3>Meat Hook</h3>
+                <div class="info_skills">
+                    <div class="image_skills">
+                        <img class="image_skills_size" src="image/Meat_Hook_icon.png" alt="Meat Hook">
+                        </div>
+                    <div class="effects">
+                        <p><span class="behavior">ЗДІБНІСТЬ:</span> НАЦІЛЕНА НА ТОЧКУ</p>
+                        <p><span class="damage_type">ШКОДА:</span> АБСОЛЮТНА</p>
+                        <p><span class="spell_immunity_type">ПРОБИВАЄ ІМУНІТЕТ ДО ЧАРІВ:</span> ТАК</p>
+                        </div>
+                    <div class="description">
+                      <p>М’ясний гак.Кидає закривавлений гак в істоту або вибрану точку. Гак зачепить першу істоту, яка трапиться на шляху його польоту, притягне її до Пуджа та завдасть шкоди, якщо це ворог.</p>
+                        </div>
+                    <div class="notes">
+                        <p>Перериває прочитання заклинань у ворогів.</p>
+                        <p>Діє на невидимих ​​істот.</p>
+                        <p>Крюк проходить крізь дерева, височини, споруди, древніх Крип і Роша.</p>
+                        <p>Притягує союзників, але не завдає їм шкоди.</p>
+                        <p>Крюк може притягувати руни. В такому випадку мана за його застосування відразу повернеться.</p>
+                        </div>
+                    <div class="stats">
+                        <div class="stat effect ">
+                            <span class="label">ШКОДИ:</span>
+                            <span class="values">150 / 220 / 290 / 360</span>
+                        </div>
+                        <div class="stat effect "><span class="label">ДАЛЬНІСТЬ:</span>
+                            <span class="values">1300</span>
+                        </div>
+                        <div class="stat effect"><span class="label">ШВИДКІСТЬ ЗАСТОСУВАННЯ</span>
+                            <span class="values">0.3s</span>
+                        </div>
+                     </div>
+                    <div class="cooldown_and_manacost">
+                        <div class="cooldown align-icon">
+                            <img src="image/cooldown-icon.png" alt="Cooldown icon">
+                            <span class="values">21 / 18 / 15 / 12</span>
+                        </div>
+                        <div class="manacost align-icon">
+                            <img src="image/manacost-icon.png" alt="Manacost icon">
+                            <span class="values">125 / 130 / 135 / 140</span>
+                        </div>
+                        </div>
+                    <div class="lore">
+                        Гак м’ясника не даремно символізує жах: дивлячись на його вигнуте лезо, мимоволі уявляєш каліцтва, які він може спричинити.
+                        </div>
+                </div>
+                </div>
+            <div class="single_skills" id="rot">
+                <h3>Rot</h3>
+                <div class="info_skills">
+                    <div class="image_skills">
+                        <img class="image_skills_size" src="image/Rot_icon.png" alt="Rot">
+                        </div>
+                    <div class="effects">
+                            <p><span class="behavior">ЗДІБНІСТЬ:</span>НЕНАЦІЛЕНА, ПЕРЕМИКАЄТЬСЯ</p>
+                            <p><span class="damage_type">ШКОДА:</span>МАГІЧНА</p>
+                            <p><span class="spell_immunity_type">ПРОБИВАЄ ІМУНІТЕТ ДО ЧАРІВ:</span>НІ</p>
+                        </div>
+                    <div class="description">
+                            <p>Гниль.Пудж випускає їдку хмару, що завдає шкоди й уповільнює рух. Шкода завдається не лише ворожим істотам, а й самому Пуджу.</p>
+                        </div>
+                    <div class="notes">
+                            <p>Не перериває прочитання заклинань.</p>
+                            <p>Діє на невидимих ​​ворогів.</p>
+                            <p>Цю здатність можна вимкнути, якщо герой обезмолвлен.</p>
+                        </div>
+                    <div class="stats">
+                            <div class="stat effect ">
+                                <span class="label">РАДІУС:</span> <span class="values">250</span>
+                            </div>
+                            <div class="stat effect ">
+                                <span class="label">УПОВІЛЬНЕННЯ ПЕРЕСУВАННЯ:</span> <span class="values">-14% / -20% / -26% / -32%</span>
+                            </div>
+                            <div class="stat effect ">
+                                <span class="label">ШКОДИ:</span> <span class="values">30 / 60 / 90 / 120</span>
+                            </div>
+                            <div class="stat effect">
+                                <span class="label">ШВИДКІСТЬ ЗАСТОСУВАННЯ:</span> <span class="values">0s</span>
+                            </div>
+                        </div>
+                    <div class="lore">
+                        Навкруги поширюється нестерпний сморід, коли з гнильних нутрощів м’ясника виходять їдкі, задушливі гази.
+                        </div>
+                </div>
+                </div>
+            <div class="single_skills" id="flesh_heap">
+                <h3>Flesh Heap</h3>
+                <div class="info_skills">
+                    <div class="image_skills">
+                        <img class="image_skills_size" src="image/Flesh_Heap_icon.png" alt="Flesh Heap">
+                        </div>
+                    <div class="effects">
+                            <p><span class="behavior">ЗДІБНІСТЬ:</span>ПАСИВНА</p>
+                        </div>
+                    <div class="description">
+                            <p>Купа з плоті. У Пуджа зростає опір до магії й він отримує додаткову силу, коли вбиває ворога або ворог гине неподалік. Здібність починає накопичувати заряди ще до того, як буде вивчена, однак починає діяти лише після активації.</p>
+                        </div>
+                    <div class="stats">
+                                <div class="stat effect ">
+                                    <span class="label">ОПІР МАГІЇ:</span> <span class="values">8% / 10% / 12% / 14%</span>
+                                    </div>
+                                <div class="stat effect ">
+                                        <span class="label">ДОДАТКОВА СИЛА:</span> <span class="values">1.5 / 2.0 / 2.5 / 3.0</span>
+                                    </div>
+                                <div class="stat effect "><span class="label">РАДІУС:</span><span class="values">450</span>
+                                    </div>
+                        </div>
+                    <div class="lore">
+                        М’ясник надає нове значення словосполученню «м’ясний щит».
+                        </div>
+                </div>
+                </div>
+            <div class="single_skills" id="eject">
+                <h3>Eject</h3>
+                <div class="info_skills">
+                    <div class="image_skills">
+                        <img class="image_skills_size" src="image/Eject_(Pudge)_icon.png" alt="Eject">
+                        </div>
+                    <div class="effects">
+                        <p><span class="behavior">ЗДІБНІСТЬ:</span>НЕНАЦІЛЕНА</p>
+                        <p><span class="spell_immunity_type">ПРОБИВАЄ ІМУНІТЕТ ДО ЧАРІВ:</span>НІ</p>
+                        </div>
+                    <div class="description">
+                        <p>Виплюнути проковтнутого героя.</p>
+                        </div>
+                    <div class="lore">
+                        Життя союзника ніколи не буде колишньою.
+                        </div>
+                </div>
+                </div>
+            <div class="single_skills" id="dismember">
+                <h3>Dismember</h3>
+                <div class="info_skills">
+                    <div class="image_skills">
+                        <img class="image_skills_size" src="image/Dismember_icon.png" alt="Dismember">
+                    </div>
+                    <div class="effects">
+                        <p><span class="behavior">ЗДІБНІСТЬ:</span>ЧАКЛУЄТЬСЯ, НАЦІЛЕНА НА ІСТОТУ</p>
+                        <p><span class="affects">ДІЄ:</span>НА ВОРОЖИХ ІСТОТ</p>
+                        <p><span class="damage_type">ШКОДА:</span><span class="">МАГІЧНА</span></p>
+                        <p><span class="spell_immunity_type">ПРОБИВАЄ ІМУНІТЕТ ДО ЧАРІВ:</span><span class="">ТАК</span></p>
+                        <p><span class="spell-dispellable-type">МОЖНА РОЗВІЯТИ:</span>СИЛЬНИМ РОЗВІЮВАННЯМ</p>
+                        </div>
+                    <div class="description">
+                        <p>Розчленування. ЧАКЛУЄТЬСЯ. Пудж починає живцем жерти ворожу істоту, паралізуючи її та завдаючи шкоди з часом. Пудж лікується на величину завданої шкоди. Діє довше на кріпів.</p>
+                        </div>
+                    <div class="aghanim_description">
+                        Поліпшення Aghanim'ом: Зменшує перезарядку. Дозволяє застосувати цю здатність на союзника, щоб проковтнути його і виліковувати на !!!!! від його максимального здоров'я кожну секунду. Союзник може вилізти коли завгодно, віддавши будь-яку команду.
+                        </div>
+                    <div class="notes">
+                        <p>Здібність не перерветься, якщо її ціль стане невидимою.</p>
+                        </div>
+                    <div class="stats">
+                        <div class="stat effect ">
+                            <span class="label">ШКОДИ ЗА СЕКУНДУ:</span> <span class="values">60 / 90 / 120</span>
+                            </div>
+                        <div class="stat effect ">
+                            <span class="label">МНОЖНИК СИЛЫ:</span> <span class="values">0.3 / 0.6 / 0.9</span>
+                            </div>
+                        <div class="stat effect ">
+                            <span class="label">ТРИВАЛІСТЬ:</span> <span class="values">3</span>
+                            </div>
+                        <div class="stat effect ">
+                            <span class="label">ТРИВАЛІСТЬ НА КРИПІВ:</span> <span class="values">6</span>
+                            </div>
+                        <div class="stat effect ">
+                            <span class="label">ЛІКУВАННЯ СОЮЗНИКА ЗІ СКІПЕТРОМ:</span> <span class="values">4%</span>
+                            </div>
+                        <div class="stat effect ">
+                            <span class="label">ПЕРЕЗАРЯДКА ЗІ СКІПЕТРОМ:</span> <span class="values">11</span>
+                            </div>
+                        <div class="stat effect">
+                            <span class="label">ШВИДКІСТЬ ЗАСТОСУВАННЯ</span> <span class="values">0.3s</span>
+                            </div>
+                        </div>                                
+                    <div class="cooldown_and_cost">
+                        <div class="cooldown align-icon">
+                            <img src="image/cooldown-icon.png" alt="Cooldown icon">
+                            <span class="values">30 / 25 / 20</span>
+                        </div>
+                        <div class="manacost align-icon">
+                            <img src="image/manacost-icon.png" alt="Manacost icon">
+                            <span class="values">100 / 130 / 170</span>
+                            </div>
+                        </div>
+                    <div class="lore">
+                        «Ця голота стане гарною начинкою для пирога!»
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section>
 	</main>
 </html>
